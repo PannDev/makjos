@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pra Final Project</title>
+    <title>Makjos Food</title>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/807d51979a.js" crossorigin="anonymous"></script>
@@ -27,10 +27,14 @@
         main {
             text-align: center;
         }
+
+        footer {
+            margin-top: 100px;
+        }
     </style>
-    <!-- CF Store, Menyediakan Segala kebutuhan komputer anda! -->
+    <!-- bagian plg atas! -->
     <div class="message_alert">
-        <span>CF Store, Menyediakan Segala kebutuhan komputer anda!</span>
+        <span>Makjos ! Makaroni Jospar Josgenk 😋</span>
     </div>
 
     <header>
@@ -39,20 +43,20 @@
             <nav class="row between-sm relative menu_navigasi">
                 <!-- Logo Cf Store -->
                 <div class="nav-left col-sm-4 col-xs-12">
-                    <a href=""><img src="Aset/Assets/logo/logo-dark.png" alt=""></a>
+                    <a href=""><img src="Aset/Assets/logo/logo-dark.jpg" alt=""></a>
                 </div>
                 <!-- Home Shop Contact About -->
                 <div class="nav-center col-sm-4 col-xs-12">
                     <ul class="list-style-none">
-                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="index.html"> <b>Home</b> </a></li>
                         <li><a href="shop.html">Shop</a></li>
-                        <li><a href="contact.html"><b>Contact</b></a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="about.html">About</a></li>
                     </ul>
                 </div>
                 <!-- Logo IG -->
                 <div class="nav-right col-sm-4 col-xs-12">
-                    <img src="Aset/Assets/icon/instagram2.png" alt="">
+                    <a href="https://instagram.com/makjos_smansa"><img src="Aset/Assets/icon/instagram2.png" alt=""></a>
                 </div>
 
                 <!-- hanya akan aktif di ukuran 768px -->
@@ -67,58 +71,35 @@
             </nav>
         </div>
     </header>
+
     <main>
-        <h1>CONTACT US</h1>
-        <p> <b>Contact Center</b> </p>
-        Call Center : +62 22 11223344
-        <br>
-        CS Whatsapp : +62 811 223 344
-        <p> <b>CF Store</b> </p>
-        Mail : yul@codefirst.co.id
-        <!-- Alamat -->
-        <p>
-            <b>
-                Sederetan Ruko English First / EF, Ruko Prima, Jl. Sisingamangaraja No.58, Panjunan, Lemahwungkuk,
-                Cirebon City, West Java 45112
-            </b>
+        <h1>Anggota Kelompok</h1>
+        <p>Danish Raditya Rabbani (07) <a style="color: green;" href="https://wa.me/6282128956716">(Contact WA)</a></p>
+
+        <p>Mohammad Evan Abygail Hezal (20) <a style="color: green;" href="https://wa.me/628813007214">(Contact WA)</a>
         </p>
-        <p> <b>see on maps</b> </p>
-        <!-- Jam Buka -->
-        <p>
-            Jam Buka <br>
-            Senin sampai jumat 10.00–18.00 <br>
-            Sabtu 00.00–16.00 <br>
-            Minggu Tutup <br>
+
+        <p>Muhammad Fasha Azzhry Putra (22) <a style="color: green;" href="https://wa.me/6282117728323">(Contact WA)</a>
         </p>
-        <p> <b>Social Media</b> </p>
-        <ul class="contact_social-media list-style-none">
-            <li>
-                <a href="https://instagram.com/codefirst" class=""><i class="fab fa-instagram-square"
-                        aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://facebook.com/" class=""><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" class=""><i class="fab fa-youtube" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://tiktok.com" class=""><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-            </li>
-        </ul>
+
+        <p>Muhammad Sulthon Aufi Fillah(24) <a style="color: green;" href="https://wa.me/6285314607028">(Contact WA)</a>
+        </p>
+
     </main>
+
+
 
 </body>
 
-    <!-- J script -->
-    <script>
-        let menu = document.querySelector('.burger_menu').addEventListener('click', setMenu);
-        // menu.addEventListener('click',setMenu);
+<!-- J script -->
+<script>
+    let menu = document.querySelector('.burger_menu').addEventListener('click', setMenu);
+    // menu.addEventListener('click',setMenu);
 
-        function setMenu() {
-            let setBody = document.querySelector('body');
-            setBody.classList.toggle('menu_active');
-        }
-    </script>
+    function setMenu() {
+        let setBody = document.querySelector('body');
+        setBody.classList.toggle('menu_active');
+    }
+</script>
 
 </html>

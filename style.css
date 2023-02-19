@@ -100,7 +100,7 @@ header {
 }
 
 .nav-left img {
-    width: 150px;
+    width: 100px;
     object-fit: contain;
 }
 
@@ -164,6 +164,10 @@ header nav {
     margin-bottom: 15px;
 }
 
+.hero_content h1 span {
+    color: orange !important;
+}
+
 /* Hanya IDR 800.000 */
 
 .hero_content h3 {
@@ -206,13 +210,17 @@ a.btn-hov:hover {
 }
 
 .box-benefit {
-    padding: 30px 0;
+    padding: 100px 0;
     background-color: #f7f7f7;
 }
 
 .box-benefit-content {
     display: flex;
     align-items: center;
+}
+
+.makaroni {
+    color: orange;
 }
 
 .box-benefit-text {
@@ -274,6 +282,10 @@ a.btn-hov:hover {
 .card:hover .card-action .btn {
     background: #77c3ff;
     transition: 0.6s ease all;
+}
+
+.card-action a {
+    font-weight: bold;
 }
 
 .card-content {
@@ -396,7 +408,7 @@ a.btn-hov:hover {
 
 .parallax {
     /* The Image Used */
-    background-image: url(Aset/Assets/img/bg-mini-about2.jpg);
+    background-image: url(Aset/Assets/img/parallax.jpg);
     /* Set a specific height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -500,6 +512,11 @@ footer ul img {
 
 .list-marketplace li {
     margin-right: 10px;
+}
+
+.list-marketplace .tiktok img {
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 /* menu mobile */

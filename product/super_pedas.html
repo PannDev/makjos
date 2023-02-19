@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prafinal Project</title>
+    <title>Makjos Food</title>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/807d51979a.js" crossorigin="anonymous"></script>
@@ -136,32 +136,42 @@
         }
     </style>
 
-    <!-- CF Store, Menyediakan Segala kebutuhan komputer anda! -->
+    <!-- bagian plg atas! -->
     <div class="message_alert">
-        <span>CF Store, Menyediakan Segala kebutuhan komputer anda!</span>
+        <span>Makjos ! Makaroni Jospar Josgenk 😋</span>
     </div>
 
     <header>
         <div class="container">
             <!-- Nav Row -->
-            <nav class="row between-sm">
+            <nav class="row between-sm relative menu_navigasi">
                 <!-- Logo Cf Store -->
                 <div class="nav-left col-sm-4 col-xs-12">
-                    <a href=""><img src="Aset/Assets/logo/logo-dark.png" alt=""></a>
+                    <a href=""><img src="Aset/Assets/logo/logo-dark.jpg" alt=""></a>
                 </div>
                 <!-- Home Shop Contact About -->
                 <div class="nav-center col-sm-4 col-xs-12">
                     <ul class="list-style-none">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="/index.html"> <b>Home</b> </a></li>
+                        <li><a href="/shop.html">Shop</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/about.html">About</a></li>
                     </ul>
                 </div>
                 <!-- Logo IG -->
                 <div class="nav-right col-sm-4 col-xs-12">
-                    <img src="Aset/Assets/icon/instagram2.png" alt="">
+                    <a href="https://instagram.com/makjos_smansa"><img src="Aset/Assets/icon/instagram2.png" alt=""></a>
                 </div>
+
+                <!-- hanya akan aktif di ukuran 768px -->
+                <div class="burger_menu">
+                    <div class="burger_wrapper">
+                        <div class="burger_items"></div>
+                        <div class="burger_items"></div>
+                        <div class="burger_items"></div>
+                    </div>
+                </div>
+
             </nav>
         </div>
     </header>
@@ -173,56 +183,21 @@
                     <!-- Gambar Kiri-->
                     <div class="col-md-6">
                         <div class="details-image">
-                            <img src="Aset/Assets/product/laptop1.png" alt="">
+                            <img src="Aset/Assets/product/makaroni.jpg" alt="">
                         </div>
                     </div>
                     <!-- Content Kanan -->
                     <div class="col-md-6 bg-grey">
                         <div class="details-content">
-                            <h2 id="nama_produk">ProArt StudioBook Pro X W730</h2>
-                            <h4>IDR. 55.800.000</h4>
+                            <h2 id="nama_produk">Makjos Super Pedas</h2>
+                            <h4>IDR. 5.000</h4>
                             <!-- Deskripsi Barang -->
                             <p>
-                                ProArt StudioBook Pro X adalah laptop bertenaga Quadro pertama yang menampilkan layar
-                                NanoEdge empat sisi, menjadikannya pembangkit tenaga listrik perkasa yang menghadirkan
-                                ide-ide dalam kehidupan. Desain NanoEdge ramping-bezel inovatif memungkinkan panel yang
-                                lebih besar untuk masuk ke dalam sasis kompak untuk visual yang mendalam. Didukung oleh
-                                prosesor Intel® Xeon® atau Core™ i7 generasi ke-9, ProArt StudioBook Pro X menawarkan
-                                kinerja yang luar biasa, sedangkan GPU NVIDIA® Quadro RTX™-5000-nya memastikan kecakapan
-                                grafis yang tiada duanya. Penambahan ASUS ScreenPad™ 2.0 interaktif juga membuat
-                                pekerjaan menjadi mudah. ProArt StudioBook Pro X menawarkan kombinasi grafis mutakhir
-                                dan portabilitas yang membuatnya sempurna untuk para profesional kreatif.
+                                Makjos kini hadir dengan rasa super pedas, cocok nih buat kamu yang suka rasa super
+                                pedas.
+                                Rasanya bikin kamu nagih.
                             </p>
-                            <div class="details-spesifikasi">
-                                <!-- Spesifikasi -->
-                                <p><b>Spesifikasi</b></p>
-                                <!-- Operating - Processsor - Graphics // Kasih Jarak -->
-                                <table>
-                                    <tbody>
-                                        <!-- Operating System -->
-                                        <tr>
-                                            <td>Operating System</td>
-                                            <td>Windows 10 Pro for Workstations</td>
-                                        </tr>
-                                        <!-- Processor -->
-                                        <tr>
-                                            <td>Processor</td>
-                                            <td>
-                                                Intel® Xeon® E-2276M processor
-                                                2.8GHz hexa-core with Turbo Boost (up to 4.7GHz) and 12MB cache
-                                            </td>
-                                        </tr>
-                                        <!-- Graphics -->
-                                        <tr>
-                                            <td>Graphics</td>
-                                            <td>
-                                                NVIDIA® Quadro® RTX 5000
-                                                16GB GDDR6 VRAM
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+
                         </div>
 
                         <!-- Pesan Sekarang -->
@@ -241,7 +216,7 @@
 
                             <div class="total_harga">
                                 <p>Perkiraan total harga yang dibayarkan</p>
-                                <div id="total_harga" data-harga="55800000">IDR. 55800000 </div>
+                                <div id="total_harga" data-harga="5000">IDR. 5000 </div>
                             </div>
 
                             <div class="box_pesan_wa">
@@ -271,12 +246,10 @@
                 <div class="col-md-4 col-xs-12">
                     <h4> Informasi </h4>
                     <ul class="list-style-none">
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="shop.html">Shop</a> </li>
-                        <li> <a href="contact.html">Contact</a> </li>
-                        <li> <a href="about.html">About</a> </li>
-                        <li> <a href="https://codefirst.co.id" target="_blank">Codefirst.co.id</a> </li>
-                        <li> <a href="https://blog.codefirst.co.id" target="_blank">Blog Codefirst</a> </li>
+                        <li> <a href="/index.html">Home</a> </li>
+                        <li> <a href="/shop.html">Shop</a> </li>
+                        <li> <a href="/contact.html">Contact</a> </li>
+                        <li> <a href="/about.html">About</a> </li>
                     </ul>
                 </div>
                 <!-- Contact Information -->
@@ -289,16 +262,15 @@
                             <!-- Alamat -->
                             <p>
                                 <b>Alamat:</b>
-                                <br> Sederetan Ruko English First / EF, Ruko Prima, Jl. Sisingamangaraja No.58,
-                                Panjunan, Lemahwungkuk, Cirebon City, West Java 45112
+                                <br> Jalan Dr. Wahidin No 81
                             </p>
                         </li>
                         <!-- Telepon -->
                         <li>
                             <p>
                                 <b>Telepon</b>
-                                <br> 0877-3606-0665
-                                <br> codefirsthq@gmail.com
+                                <br> 0881 300 7214
+                                <br> dryhezelnut@gmail.com
                             </p>
                         </li>
                     </ul>
@@ -309,16 +281,20 @@
                     <!-- IG FB YT TT -->
                     <ul class="list-style-none contact_social-media">
                         <li>
-                            <a href="" class=""><i class="fab fa-instagram-square" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com/makjos_smansa" target="_blank" target="_blank" class=""><i
+                                    class="fab fa-instagram-square" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="" class=""><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="https://facebook.com" target="_blank" class=""><i class="fab fa-facebook-square"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="" class=""><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                            <a href="https://youtube.com" target="_blank" class=""><i class="fab fa-youtube"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="" class=""><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                            <a href="https://tiktok.com" target="_blank" class=""><i class="fab fa-tiktok"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul>
                     <br> <!-- br -->
@@ -334,6 +310,9 @@
                         <li>
                             <img src="Aset/Assets/icon/bukalapak.png" alt="">
                         </li>
+                        <li class="tiktok">
+                            <img src="Aset/Assets/icon/tiktok.jpg" alt="">
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -345,13 +324,13 @@
                         <!-- Copyright -->
                         <div class="copyright">
                             <span>
-                                <a href="#" class="text-secondary">&copy;Codefirst.co.id</a>
-                                2021 All Rights Reserved
+                                <a href="#" class="text-secondary">&copy;MAKJOS</a>
+                                2023 All Rights Reserved
                             </span>
                         </div>
                         <!-- CF Store is part of -->
                         <span style="margin-left: auto;">
-                            CF Store is part of <a href="#" class="text-secondary">Codefirst.co.id</a>
+                            MAKJOS is part of <a href="#" class="text-secondary">PannDev</a>
                             Technology and Innovation
                         </span>
                     </div>
@@ -373,7 +352,7 @@
         })
 
         function wa() {
-            window.open("https://wa.me/628813007214?text=Halo%20saya%20ingin%20bertanya%20tentang%20" + nama_produk + '%20Jumlah:%20' + jumlah.value + ' total harga ' +  total.innerHTML);
+            window.open("https://wa.me/628813007214?text=Haii%20aku%20ingin%20membeli%20" + nama_produk + '%20Jumlah:%20' + jumlah.value + ' total harga ' + total.innerHTML);
         }
 
     </script>
